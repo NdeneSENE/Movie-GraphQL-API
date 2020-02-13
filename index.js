@@ -2,6 +2,7 @@ const { ApolloServer, gql } = require("apollo-server");
 
 const typeDefs = gql`
   enum Status {
+    GOOD
     WATCHED
     INTERESTED
     NOT_INTERESTED
